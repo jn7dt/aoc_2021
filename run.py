@@ -4,7 +4,7 @@ import argparse
 import logging
 import sys
 
-logger = logging.getLogger('AOC2020')
+logger = logging.getLogger('AOC2021')
 handler = logging.StreamHandler(sys.stdout)
 handler.setLevel(logging.DEBUG)
 logger.setLevel(logging.DEBUG)
